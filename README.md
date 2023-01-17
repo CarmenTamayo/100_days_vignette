@@ -29,8 +29,9 @@ To create the contact tracing database, a random number of contacts was generate
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
-![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario1sm.png)
+<br>
 
+![](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario1sm.png | width = 70)
 
 <br>
 
@@ -320,7 +321,7 @@ Project structure | Working simultaneously on the same script and managing paral
 Data cleaning | Losing too many data entries when removing _NA_ rows <br> Non standardised data
 Delay distributions | Need to identify the best method to calculate, or compare functionality of tools
 Severity of disease | Censoring and truncation <br> Underestimation of mild cases
-Zoonotic transmisison | Need for specific packages with clear documentation
+Zoonotic transmission | Need for specific packages with clear documentation
 
 
 
