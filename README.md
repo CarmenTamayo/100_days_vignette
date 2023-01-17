@@ -29,7 +29,8 @@ To create the contact tracing database, a random number of contacts was generate
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
-![alt text](https://github.com/[CarmenTamayo]/[100_days_vignette]/scenario1sm.png)
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario2sm.png)
+
 
 <br>
 
