@@ -29,7 +29,7 @@ To create the contact tracing database, a random number of contacts was generate
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
-![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario2sm.png)
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario1sm.png)
 
 
 <br>
@@ -120,9 +120,8 @@ Forecasting | Underlying assumption of a given R distribution, e.g., single tren
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario2sm.png'))
-```
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario2sm.png)
+
 <br>
 
 ### Analytic pipeline for scenario 2 (analysed by group 3)
@@ -172,9 +171,7 @@ Attack rate | Not enough information provided
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario3sm.png'))
-```
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario3sm.png)
 
 <br>
 
@@ -245,9 +242,7 @@ Spillover events | Missing data
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario4sm.png'))
-```
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario4sm.png)
 
 <br>
 
@@ -277,9 +272,7 @@ Severity | Missing cases <br> Need for an R package for systematic censoring ana
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario5sm.png'))
-```
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario5sm.png)
 
 <br>
 
