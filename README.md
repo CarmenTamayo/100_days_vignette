@@ -31,7 +31,7 @@ To create the contact tracing database, a random number of contacts was generate
 
 <br>
 
-![](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario1sm.png | width = 70)
+![alt text](https://github.com/CarmenTamayo/100_days_vignette/blob/main/scenario1sm.png | width = 70)
 
 <br>
 
