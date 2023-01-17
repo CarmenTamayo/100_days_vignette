@@ -8,36 +8,43 @@ self_contained: TRUE
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
-```{r}
 
-```
+<br>
 
-# 100 days and 100 lines of code
+This vignette summarises the findings from the _100 days and 100 lines of code_ workshop, hosted in December 2022 by [Epiverse-TRACE](https://data.org/news/epiverse-trace-a-values-based-approach-to-open-source-ecosystems/).
 
-## Brief summary of activity
+## What should the first 100 lines of code written during an epidemic look like?
 
-This vignette summarises the activity conducted by the participants of the 100 days and 100 lines of code workshop, organised by Epiverse-TRACE. 
+To answer this question, we invited 40 experts, including academics, field epidemiologists, and software engineers, to take part in a 3-day workshop, where they discussed the current challenges, and potential solutions, in data analytic pipelines used to analyse epidemic data.
 
-The aim of this activity was for participants to explore current challenges and potential solutions in the data analysis process during an outbreak investigation. To do so, participants (n=40) were divided into groups (n=5). Each group was asked to develop an epidemic scenario, by modifying a simulated linelist and contact database, creating a situation report, and a list of aims to guide a response intervention. Groups then exchanged epidemic scenarios and analysed the provided data as if they were an outbreak response team. 
+### What R packages and tools are available to use during an epidemic?  
+To investigate this in a similar setting to what an outbreak response team would experience, workshop participants were divided into groups, and asked to develop a plausible epidemic scenario, that included:
 
-Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised below.
+* A situation report, describing the characteristics of the epidemic
 
+* A linelist of cases and contact tracing data, by modifying provided datasets containing simulated data
 
-## Simulated data
+* A set of questions to address during the analytic process
+
+Groups then exchanged epidemic scenarios and analysed the provided data to answer the questions indicated the previous group, as if they were a response team working to solve an outbreak.
+Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised in this vignette
+
+### Simulating epidemic data
 
 Before the workshop, a fictitious dataset was created, which consisted of a linelist and contact tracing information.
 
-To generate linelist data, the package `bpmodels` was used to generate a branching process network. Cases were then transformed from the model output to a linelist format. To add plausible hospitalisations and deaths, delay distributions for SARS-CoV were extracted from `epiparameter`.
+To generate linelist data, the package [`bpmodels`](https://github.com/epiverse-trace/bpmodels) was used to generate a branching process network. Cases were then transformed from the model output to a linelist format. To add plausible hospitalisations and deaths, delay distributions for SARS-CoV were extracted from [`epiparameter`](https://github.com/epiverse-trace/epiparameter).
 
-To create the contact tracing database, a random number of contacts was generated for each of the cases included in the linelist. These contacts were then assigned a category of 'became case', 'under follow up' or 'lost to follow up', at random.
+To create the contact tracing database, a random number of contacts was generated for each of the cases included in the linelist. These contacts were then assigned a category of _became case_, _under follow up_ or _lost to follow up_, at random.
 
-## Scenario 1
+* Through this workshop, we identified the need for a tool to simulate outbreak data in a linelist format, to test analysis methods and other packages while having control over the characteristics of the test data. For this purpose, an R package is currently in progress, see [simulist](https://github.com/epiverse-trace/pitcher/issues/7).
+
+## Scenario 1: Novel respiratory disease in The Gambia
 
 <br>
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="70%"}
 knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario1sm.png'))
 ```
-
 <br>
 
 ### Analytic pipeline for scenario 1 (analysed by group 2)
@@ -122,18 +129,16 @@ Forecasting | Underlying assumption of a given R distribution, e.g., single tren
 
 <br>
 
-## Scenario 2
+## Scenario 2: Outbreak of an unidentified disease in rural Colombia
 
 <br>
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="70%"}
 knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario2sm.png'))
 ```
 <br>
 
 ### Analytic pipeline for scenario 2 (analysed by group 3)
-
-<br>
 
 * Data cleaning: manually, using R (no packages specified), to
   + Fix data entry issues in columns _onset_date_ and _gender_
@@ -176,19 +181,17 @@ Projection of hospital bed requirements | Incomplete data (missing discharge dat
 Zoonotic transmission | Poor documentation <br> Unavailability of packages in R <br> Differentiation between zoonotic transmission and risk factors- need for population data
 Attack rate | Not enough information provided
 
-## Scenario 3
+## Scenario 3: Reston Ebolavirus in the Philippines
 
 <br>
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="70%"}
 knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario3sm.png'))
 ```
 
 <br>
 
 ### Analytic pipeline for scenario 3 (analysed by group 4)
-
-<br>
 
 * Data cleaning
   + Importing data with [`rio`](https://cran.r-project.org/web/packages/rio/index.html), [`readxl`](https://readxl.tidyverse.org), [`readr`](https://cran.r-project.org/web/packages/readr/index.html), or [`openxlsx`](https://cran.r-project.org/web/packages/openxlsx/index.html)
@@ -251,19 +254,17 @@ Spillover events | Missing data
 
 <br>
  
-## Scenario 4
+## Scenario 4: Emerging avian influenza in Cambodia
 
 <br>
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="70%"}
 knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario4sm.png'))
 ```
 
 <br>
 
 ### Analytic pipeline for scenario 4 (analysed by group 5)
-
-<br>
 
 * Data cleaning
   + [`readxl`](https://readxl.tidyverse.org) to import data
@@ -285,20 +286,17 @@ Severity | Missing cases <br> Need for an R package for systematic censoring ana
 
 <br>
 
-## Scenario 5
+## Scenario 5: Outbreak of respiratory disease in Canada
 
 <br>
 
-
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="70%"}
 knitr::include_graphics(rep('~/Library/CloudStorage/OneDrive-LondonSchoolofHygieneandTropicalMedicine/LSHTM/Pillar 5 workshop/Outputs/scenario5sm.png'))
 ```
 
 <br>
 
 ### Analytic pipeline for scenario 5 (analysed by group 1)
-
-<br>
 
 * Define project structure
   + Defining the script's structure with [`cookiecutter`](https://github.com/jacobcvt12/cookiecutter-R-package), [`reportfactory`](https://cran.r-project.org/web/packages/reportfactory/index.html), and [`orderly`](https://cran.rstudio.com/web/packages/orderly/index.html)
@@ -345,14 +343,4 @@ Severity of disease | Censoring and truncation <br> Underestimation of mild case
 Zoonotic transmisison | Need for specific packages with clear documentation
 
 
-<br>
-
-### Conclusions
-
-* Through this workshop, we identified the need for a tool to simulate outbreak data in a linelist format, to test analysis methods and other packages while having control over the characteristics of the test data. For this purpose, an R package is currently in progress, see [simulist](https://github.com/epiverse-trace/pitcher/issues/7).
-
-
-```{r cars}
-
-```
 
