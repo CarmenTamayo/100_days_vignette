@@ -299,9 +299,9 @@ Severity | Missing cases <br> Need for an R package for systematic censoring ana
   + [`apyramid`](https://cran.r-project.org/web/packages/apyramid/index.html) to stratify data by age, gender, and health status
   
 * Nowcasting
-  + [incidence2](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html) to visualise incidence from linelist data
-  + [epiparameter](https://github.com/epiverse-trace/epiparameter) to extract infectious disease parameter data
-  + [EpiEstim](https://cran.r-project.org/web/packages/EpiEstim/index.html) or [EpiNow2](https://github.com/epiforecasts/EpiNow2) for Rt calculation
+  + [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html) to visualise incidence from linelist data
+  + [`epiparameter`](https://github.com/epiverse-trace/epiparameter) to extract infectious disease parameter data
+  + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html) or [EpiNow2](https://github.com/epiforecasts/EpiNow2) for Rt calculation
   
 * Severity of disease
   + Calculation of hospitalisation and mortality rates- no R package specified
