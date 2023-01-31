@@ -1,6 +1,8 @@
 ---
 title: "workshop vignette"
-output: html_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
 date: "2023-01-12"
 self_contained: TRUE
 ---
