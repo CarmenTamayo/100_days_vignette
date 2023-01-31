@@ -477,39 +477,58 @@ analysis</td>
 
 ### Analytic pipeline for scenario 5 (analysed by group 1)
 
-* Define project structure
-  + Defining the script's structure with [`cookiecutter`](https://github.com/jacobcvt12/cookiecutter-R-package), [`reportfactory`](https://cran.r-project.org/web/packages/reportfactory/index.html), and [`orderly`](https://cran.rstudio.com/web/packages/orderly/index.html)
-  + Ensuring reproducibility of the analysis with [iRODS](https://irods.org) and [Git](https://git-scm.com)
-  + Working in a group with [GitHub](https://github.com)
-
-* Data cleaning
-  + Importing data with [`readr`](https://cran.r-project.org/web/packages/readr/index.html) or [`rio`](https://cran.r-project.org/web/packages/rio/index.html)
-  + Checking for errors with [`linelist`](https://cran.r-project.org/web/packages/linelist/index.html), [`janitor`](https://cran.r-project.org/web/packages/janitor/index.html), [`parsedate`](https://cran.r-project.org/web/packages/parsedate/index.html), [`matchmaker`](https://cran.rstudio.com/web/packages/matchmaker/index.html), or [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html)
-  + [`janitor`](https://cran.r-project.org/web/packages/janitor/index.html) to eliminate duplicates
-  + [`naniar`](https://cran.r-project.org/web/packages/naniar/index.html) to check for missing data
-  + [`epitrix`](https://cran.r-project.org/web/packages/epitrix/index.html) to anonymise data
-
-* Delay distributions
-  + [`epitrix`](https://cran.r-project.org/web/packages/epitrix/index.html)
-  + [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html) to fit parameteric distributions to scenario data
-  
-* Case demographics
-  + [`apyramid`](https://cran.r-project.org/web/packages/apyramid/index.html) to stratify data by age, gender, and health status
-  
-* Nowcasting
-  + [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html) to visualise incidence from linelist data
-  + [`epiparameter`](https://github.com/epiverse-trace/epiparameter) to extract infectious disease parameter data
-  + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html) or [`EpiNow2`](https://github.com/epiforecasts/EpiNow2) for Rt calculation
-  
-* Severity of disease
-  + Calculation of hospitalisation and mortality rates- no R package specified
-  
-* Zoonotic transmission
-  + [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
-  
-* Generation of reports
-  + [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/overview.html) for static reports
-  + [Quarto](https://quarto.org) and [R markdown](https://rmarkdown.rstudio.com) for dashboards
+-   Define project structure
+    -   Defining the script’s structure with
+        [`cookiecutter`](https://github.com/jacobcvt12/cookiecutter-R-package),
+        [`reportfactory`](https://cran.r-project.org/web/packages/reportfactory/index.html),
+        and
+        [`orderly`](https://cran.rstudio.com/web/packages/orderly/index.html)
+    -   Ensuring reproducibility of the analysis with
+        [iRODS](https://irods.org) and [Git](https://git-scm.com)
+    -   Working in a group with [GitHub](https://github.com)
+-   Data cleaning
+    -   Importing data with
+        [`readr`](https://cran.r-project.org/web/packages/readr/index.html)
+        or
+        [`rio`](https://cran.r-project.org/web/packages/rio/index.html)
+    -   Checking for errors with
+        [`linelist`](https://cran.r-project.org/web/packages/linelist/index.html),
+        [`janitor`](https://cran.r-project.org/web/packages/janitor/index.html),
+        [`parsedate`](https://cran.r-project.org/web/packages/parsedate/index.html),
+        [`matchmaker`](https://cran.rstudio.com/web/packages/matchmaker/index.html),
+        or
+        [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html)
+    -   [`janitor`](https://cran.r-project.org/web/packages/janitor/index.html)
+        to eliminate duplicates
+    -   [`naniar`](https://cran.r-project.org/web/packages/naniar/index.html)
+        to check for missing data
+    -   [`epitrix`](https://cran.r-project.org/web/packages/epitrix/index.html)
+        to anonymise data
+-   Delay distributions
+    -   [`epitrix`](https://cran.r-project.org/web/packages/epitrix/index.html)
+    -   [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html)
+        to fit parameteric distributions to scenario data
+-   Case demographics
+    -   [`apyramid`](https://cran.r-project.org/web/packages/apyramid/index.html)
+        to stratify data by age, gender, and health status
+-   Nowcasting
+    -   [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html)
+        to visualise incidence from linelist data
+    -   [`epiparameter`](https://github.com/epiverse-trace/epiparameter)
+        to extract infectious disease parameter data
+    -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
+        or [`EpiNow2`](https://github.com/epiforecasts/EpiNow2) for Rt
+        calculation
+-   Severity of disease
+    -   Calculation of hospitalisation and mortality rates- no R package
+        specified
+-   Zoonotic transmission
+    -   [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
+-   Generation of reports
+    -   [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/overview.html)
+        for static reports
+    -   [Quarto](https://quarto.org) and [R
+        markdown](https://rmarkdown.rstudio.com) for dashboards
 
 <br>
 
