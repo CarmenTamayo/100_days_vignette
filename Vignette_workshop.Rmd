@@ -86,18 +86,18 @@ knitr::include_graphics('scenario1sm.png')
   
 * Epi curve and maps
 
-  + Used [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/overview.html) and [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html) for incidence calculation and visualisation
-  + [`rasterR`](https://cran.r-project.org/web/packages/raster/index.html) to extract spatial information from library of shapefiles
+  + Used [`incidence`](https://www.repidemicsconsortium.org/incidence/) and [`incidence2`](https://www.reconverse.org/incidence2/dev/index.html) for incidence calculation and visualisation
+  + [`raster`](https://cran.r-project.org/web/packages/raster/index.html) to extract spatial information from library of shapefiles
 
 * Reproduction number
 
   + [`APEestim`](https://github.com/kpzoo/APEestim)
   + [`bayEStim`](https://github.com/thlytras/bayEStim)
-  + [`earlyR`](https://cran.r-project.org/web/packages/earlyR/index.html)
-  + [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
-  + [`epidemia`](https://github.com/ImperialCollegeLondon/epidemia)
+  + [`earlyR`](https://www.repidemicsconsortium.org/earlyR/)
+  + [`epicontacts`](https://www.repidemicsconsortium.org/epicontacts/)
+  + [`epidemia`](https://imperialcollegelondon.github.io/epidemia/index.html)
   + [`epiFilter`](https://github.com/kpzoo/EpiFilter)
-  + [`EpiNow2`](https://github.com/epiforecasts/EpiNow2)
+  + [`EpiNow2`](https://epiforecasts.io/EpiNow2/)
   + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
   + [`R0`](https://cran.r-project.org/web/packages/R0/index.html)
   + [`outbreaker2`](https://cran.r-project.org/web/packages/outbreaker2/index.html)
@@ -105,12 +105,12 @@ knitr::include_graphics('scenario1sm.png')
 * Superspreading, by using [this](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd) resource
 
   + [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html)
-  + [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
+  + [`epicontacts`](https://www.repidemicsconsortium.org/epicontacts/)
   
 * Epidemic projections
 
-  + [`incidence`](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd) R estimation using a loglinear model
-  + [`projections`](https://cran.r-project.org/web/packages/projections/index.html) using Rt estimates, SI distributions and overdispersion estimates
+  + [`incidence`](https://www.repidemicsconsortium.org/incidence/reference/fit.html) R estimation using a loglinear model
+  + [`projections`](https://www.repidemicsconsortium.org/projections/) using Rt estimates, SI distributions and overdispersion estimates
   
 * Transmission chains and strain characterisation
   + [IQtree](http://www.iqtree.org) and [nextclade](https://clades.nextstrain.org) to build a maximum likelihood tree and mannually inspect it
