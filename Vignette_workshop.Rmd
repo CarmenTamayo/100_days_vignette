@@ -62,7 +62,7 @@ knitr::include_graphics('scenario1sm.png')
   + [`fitdisrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html) to fit parameteric distributions to scenario data
   + [`epiparameter`](https://github.com/epiverse-trace/epiparameter) to extract delay distributions from respiratory pathogens
   + [`EpiNow2`](https://github.com/epiforecasts/EpiNow2) to fit reporting delays
-  + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html) / [`coarsedatatools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html) to estimate incubation period of disease
+  + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html) / [`coarseDataTools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html) to estimate incubation period of disease
   + [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
   + [`mixdiff`](https://rdrr.io/cran/RBesT/man/mixdiff.html) 
   
@@ -72,7 +72,7 @@ knitr::include_graphics('scenario1sm.png')
   
 * Risk factors of infection
 
-  + Used [R4epi](https://www.r4epi.com) as a guide on how to create two-way tables and perform Chi-squared tests 
+  + Used [R4epis](https://r4epis.netlify.app/training/walk-through/univariate/) as a guide on how to create two-way tables and perform Chi-squared tests 
   
 * Severity of disease
 
