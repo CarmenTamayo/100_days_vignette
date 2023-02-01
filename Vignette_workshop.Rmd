@@ -339,11 +339,12 @@ knitr::include_graphics('scenario5sm.png')
 
 Data analysis step  | Challenges 
 ------------- | ---------------------------------------
-Project structure | Working simultaneously on the same script and managing parallel tasks
-Data cleaning | Losing too many data entries when removing _NA_ rows <br> Non standardised data
-Delay distributions | Need to identify the best method to calculate, or compare functionality of tools
-Severity of disease | Censoring and truncation <br> Underestimation of mild cases
-Zoonotic transmisison | Need for specific packages with clear documentation
+Project structure | Working simultaneously on the same script and managing parallel tasks <br> Anticipating future incoming data in early pipeline design
+Data cleaning | Large amount of code lines used on (reasonably) predictable cleaning (e.g. data sense checks) <br> Omitting too many data entries when simply removing _NA_ rows <br> Non standardised data formats <br> Implementing rapid quality check reports before analysis
+Delay distributions | Identifying the best method to calculate, or compare functionality of tools <br> Need to fit multiple parametric distributions and return best, and store as usable objects
+Severity of disease | Censoring and truncation <br> Underestimation of mild cases <br> Need database of age/gender pyramids for comparisons
+Forecasts | Need option for fitting with range of plausible pathogen serial intervals and comparing results <br> Changing reporting delays over time <br> Matching inputs/outputs between packages
+Zoonotic transmisison | Need for specific packages with clear documentation <br> How to compare simple trend-based forecasts
 
 
 

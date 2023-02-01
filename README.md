@@ -547,25 +547,37 @@ analysis</td>
 <tr class="odd">
 <td>Project structure</td>
 <td>Working simultaneously on the same script and managing parallel
-tasks</td>
+tasks <br> Anticipating future incoming data in early pipeline
+design</td>
 </tr>
 <tr class="even">
 <td>Data cleaning</td>
-<td>Losing too many data entries when removing <em>NA</em> rows <br> Non
-standardised data</td>
+<td>Large amount of code lines used on (reasonably) predictable cleaning
+(e.g. data sense checks) <br> Omitting too many data entries when simply
+removing <em>NA</em> rows <br> Non standardised data formats <br>
+Implementing rapid quality check reports before analysis</td>
 </tr>
 <tr class="odd">
 <td>Delay distributions</td>
-<td>Need to identify the best method to calculate, or compare
-functionality of tools</td>
+<td>Identifying the best method to calculate, or compare functionality
+of tools <br> Need to fit multiple parametric distributions and return
+best, and store as usable objects</td>
 </tr>
 <tr class="even">
 <td>Severity of disease</td>
-<td>Censoring and truncation <br> Underestimation of mild cases</td>
+<td>Censoring and truncation <br> Underestimation of mild cases <br>
+Need database of age/gender pyramids for comparisons</td>
 </tr>
 <tr class="odd">
+<td>Forecasts</td>
+<td>Need option for fitting with range of plausible pathogen serial
+intervals and comparing results <br> Changing reporting delays over time
+<br> Matching inputs/outputs between packages</td>
+</tr>
+<tr class="even">
 <td>Zoonotic transmisison</td>
-<td>Need for specific packages with clear documentation</td>
+<td>Need for specific packages with clear documentation <br> How to
+compare simple trend-based forecasts</td>
 </tr>
 </tbody>
 </table>
