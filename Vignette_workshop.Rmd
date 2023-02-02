@@ -10,7 +10,6 @@ self_contained: TRUE
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
-
 <br>
 
 This vignette summarises the findings from the _100 days and 100 lines of code_ workshop, hosted in December 2022 by [Epiverse-TRACE](https://data.org/news/epiverse-trace-a-values-based-approach-to-open-source-ecosystems/).
@@ -30,7 +29,7 @@ To investigate this in a similar setting to what an outbreak response team would
 * A set of questions to address during the analytic process
 
 Groups then exchanged epidemic scenarios and analysed the provided data to answer the questions indicated the previous group, as if they were a response team working to solve an outbreak.
-Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised in this vignette
+Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised in this vignette.
 
 ### Simulating epidemic data
 
@@ -45,8 +44,8 @@ To create the contact tracing database, a random number of contacts was generate
 ## Scenario 1: Novel respiratory disease in The Gambia
 
 <br>
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario1sm.png')
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics('images/Scenario1smq.png')
 ```
 <br>
 
@@ -136,8 +135,8 @@ Forecasting | Underlying assumption of a given R distribution, e.g., single tren
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario2sm.png')
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics('images/Scenario2smq.png')
 ```
 <br>
 
@@ -188,8 +187,8 @@ Attack rate | Not enough information provided
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario3sm.png')
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics('images/Scenario3smq.png')
 ```
 
 <br>
@@ -261,8 +260,8 @@ Spillover events | Missing data
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario4sm.png')
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics('images/Scenario4smq.png')
 ```
 
 <br>
@@ -293,8 +292,8 @@ Severity | Missing cases <br> Need for an R package for systematic censoring ana
 
 <br>
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario5sm.png')
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics('images/Scenario5smq.png')
 ```
 
 <br>
