@@ -101,8 +101,7 @@ knitr::include_graphics('scenario1sm.png')
   + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
   + [`R0`](https://cran.r-project.org/web/packages/R0/index.html)
   + [`outbreaker2`](https://cran.r-project.org/web/packages/outbreaker2/index.html)
-  
-  Used [this comparison table](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd) to choose the most appropriate package.
+  + Used [this comparison table](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd) to choose the most appropriate package.
   
 * Superspreading, by using these resources:
 
