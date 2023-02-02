@@ -55,7 +55,7 @@ were then assigned a category of *became case*, *under follow up* or
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
-<br> <img src="Scenario1smq.png" width="70%" /> <br>
+<br> <img src="images/Scenario1smq.png" width="70%" /> <br>
 
 ### Analytic pipeline for scenario 1 (analysed by group 2)
 
