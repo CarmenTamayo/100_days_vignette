@@ -29,7 +29,7 @@ To investigate this in a similar setting to what an outbreak response team would
 * A set of questions to address during the analytic process
 
 Groups then exchanged epidemic scenarios and analysed the provided data to answer the questions indicated the previous group, as if they were a response team working to solve an outbreak.
-Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised in this vignette
+Details about each of these outbreak scenarios and the analytic pipelines developed by the groups are summarised in this vignette.
 
 ### Simulating epidemic data
 
