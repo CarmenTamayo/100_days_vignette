@@ -46,7 +46,7 @@ To create the contact tracing database, a random number of contacts was generate
 
 <br>
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('images/Scenario1smq.png')
+knitr::include_graphics('100_days_vignette/images/Scenario1smq.png')
 ```
 <br>
 
