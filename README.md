@@ -55,7 +55,7 @@ were then assigned a category of *became case*, *under follow up* or
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
-<br> <img src="scenario1sm.png" width="70%" /> <br>
+<br> <img src="Scenario1smq.png" width="70%" /> <br>
 
 ### Analytic pipeline for scenario 1 (analysed by group 2)
 
@@ -218,7 +218,7 @@ homogeneous mixing, no saturation</td>
 
 <br>
 
-<img src="scenario2sm.png" width="70%" /> <br>
+<img src="Scenario2smq.png" width="70%" /> <br>
 
 ### Analytic pipeline for scenario 2 (analysed by group 3)
 
@@ -302,7 +302,7 @@ population data</td>
 
 <br>
 
-<img src="scenario3sm.png" width="70%" />
+<img src="Scenario3smq.png" width="70%" />
 
 <br>
 
@@ -418,7 +418,7 @@ population data</td>
 
 <br>
 
-<img src="scenario4sm.png" width="70%" />
+<img src="Scenario4smq.png" width="70%" />
 
 <br>
 
@@ -471,7 +471,7 @@ analysis</td>
 
 <br>
 
-<img src="scenario5sm.png" width="70%" />
+<img src="Scenario5smq.png" width="70%" />
 
 <br>
 
