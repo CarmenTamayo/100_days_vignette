@@ -10,7 +10,6 @@ self_contained: TRUE
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
-
 <br>
 
 This vignette summarises the findings from the _100 days and 100 lines of code_ workshop, hosted in December 2022 by [Epiverse-TRACE](https://data.org/news/epiverse-trace-a-values-based-approach-to-open-source-ecosystems/).
@@ -46,7 +45,7 @@ To create the contact tracing database, a random number of contacts was generate
 
 <br>
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario1sm.png')
+knitr::include_graphics('100_days_vignette/blob/main/images/Scenario1smq.png')
 ```
 <br>
 
@@ -137,7 +136,7 @@ Forecasting | Underlying assumption of a given R distribution, e.g., single tren
 <br>
 
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario2sm.png')
+knitr::include_graphics('images/Scenario2smq.png')
 ```
 <br>
 
@@ -189,7 +188,7 @@ Attack rate | Not enough information provided
 <br>
 
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario3sm.png')
+knitr::include_graphics('images/Scenario3smq.png')
 ```
 
 <br>
@@ -262,7 +261,7 @@ Spillover events | Missing data
 <br>
 
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario4sm.png')
+knitr::include_graphics('images/Scenario4smq.png')
 ```
 
 <br>
@@ -294,7 +293,7 @@ Severity | Missing cases <br> Need for an R package for systematic censoring ana
 <br>
 
 ```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics('scenario5sm.png')
+knitr::include_graphics('images/Scenario5smq.png')
 ```
 
 <br>
