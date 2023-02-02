@@ -109,7 +109,7 @@ knitr::include_graphics('scenario1sm.png')
   
 * Epidemic projections
 
-  + [`incidence`](https://www.repidemicsconsortium.org/incidence/reference/fit.html) R estimation using a loglinear model
+  + [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/incidence_fit_class.html) R estimation using a loglinear model
   + [`projections`](https://cran.r-project.org/web/packages/projections/index.html) using Rt estimates, SI distributions and overdispersion estimates
   
 * Transmission chains and strain characterisation
