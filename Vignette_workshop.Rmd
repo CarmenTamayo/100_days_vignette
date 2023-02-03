@@ -124,7 +124,7 @@ Data cleaning | Not knowing what packages are available for this purpose
 Delay distributions | Dealing with right censoring <br> Accounting for multiple infectors
 Population demographics | Lacking tools that provide information about population by age, gender, etc.
 Risk factors of infection | Distinguishing between risk factors vs detecting differences in reporting frequencies among groups
-Severity of disease | Knowing the prevalence of disease (denominator) <br> Right censoring <br> Varying severity of diffeent strains
+Severity of disease | Knowing the prevalence of disease (denominator) <br> Right censoring <br> Varying severity of different strains
 Contact matching | Missing data <br> Misspellings
 Epicurve and maps| NA dates entries not included <br> Reporting levels varying over time
 Offspring distribution | Right censoring <br> Time varying reporting efforts <br> Assumption of a single homogeneous epidemic <br> Importation of cases
