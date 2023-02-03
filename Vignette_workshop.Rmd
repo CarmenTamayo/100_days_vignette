@@ -197,7 +197,7 @@ knitr::include_graphics('images/Scenario3smq.png')
 ### Analytic pipeline for scenario 3 (analysed by group 4)
 
 * Data cleaning
-  + Importing data with [`rio`](https://cran.r-project.org/web/packages/rio/index.html), [`readxl`](https://readxl.tidyverse.org), [`readr`](https://cran.r-project.org/web/packages/readr/index.html), or [`openxlsx`](https://cran.r-project.org/web/packages/openxlsx/index.html)
+  + Importing data with [`rio`](https://cran.r-project.org/web/packages/rio/index.html), [`readxl`](https://cran.r-project.org/web/packages/readxl/index.html), [`readr`](https://cran.r-project.org/web/packages/readr/index.html), or [`openxlsx`](https://cran.r-project.org/web/packages/openxlsx/index.html)
   + Rename variables with [`janitor`](https://cran.r-project.org/web/packages/janitor/index.html)
   + Initial data checks with [`pointblank`](https://cran.r-project.org/web/packages/pointblank/index.html), [`assertr`](https://cran.r-project.org/web/packages/assertr/index.html), [`compareDF`](https://cran.r-project.org/web/packages/compareDF/index.html), or [`skimr`](https://cran.r-project.org/web/packages/skimr/index.html)
   + Vertical data checks with [`matchmaker`](https://cran.rstudio.com/web/packages/matchmaker/index.html), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), or [`parsedate`](https://cran.r-project.org/web/packages/parsedate/index.html)
