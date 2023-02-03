@@ -214,7 +214,7 @@ knitr::include_graphics('images/Scenario3smq.png')
   + [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggplot.html) to visualise data
   
 * Outbreak description
-  + [`sitrep`](https://rdrr.io/github/R4EPI/r4epi/man/sitrep-package.html) to generate reports
+  + [`sitrep`](https://github.com/R4EPI/sitrep) to generate reports
   
 * Visualisation of geographic data
   + [`sf`](https://cran.r-project.org/web/packages/sf/index.html) for static maps
@@ -229,7 +229,7 @@ knitr::include_graphics('images/Scenario3smq.png')
   
 * Attack rate
   + [`gadm`](https://rdrr.io/github/rspatial/geodata/man/gadm.html) to get population data
-  + [`epitabulate`](https://rdrr.io/github/R4EPI/epitabulate/) to describe data
+  + [`epitabulate`](https://github.com/R4EPI/epitabulate/) to describe data
   + [`sf`](https://cran.r-project.org/web/packages/sf/index.html) and [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggplot.html) to plot data
   
 * Forecasting
