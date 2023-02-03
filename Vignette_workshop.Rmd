@@ -228,7 +228,7 @@ knitr::include_graphics('images/Scenario3smq.png')
   + [`EpiNow2`](https://epiforecasts.io/EpiNow2/) and [`survival`](https://cran.r-project.org/web/packages/survival/index.html) to calculate CFR
   
 * Attack rate
-  + [`gadm`](https://rdrr.io/github/rspatial/geodata/man/gadm.html) to get population data
+  + [`gadm`](https://github.com/rspatial/geodata) to get population data
   + [`epitabulate`](https://github.com/R4EPI/epitabulate/) to describe data
   + [`sf`](https://cran.r-project.org/web/packages/sf/index.html) and [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggplot.html) to plot data
   
