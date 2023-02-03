@@ -63,7 +63,7 @@ knitr::include_graphics('images/Scenario1smq.png')
   + [`EpiNow2`](https://github.com/epiforecasts/EpiNow2) to fit reporting delays
   + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html) / [`coarseDataTools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html) to estimate incubation period of disease
   + [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
-  + [`mixdiff`](https://rdrr.io/cran/RBesT/man/mixdiff.html) 
+  + [`mixdiff`](https://github.com/MJomaba/MixDiff) 
   
 * Population demographics
 
