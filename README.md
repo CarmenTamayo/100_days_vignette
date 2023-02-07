@@ -4,7 +4,7 @@ This vignette summarises the findings from the *100 days and 100 lines
 of code* workshop, hosted in December 2022 by
 [Epiverse-TRACE](https://data.org/news/epiverse-trace-a-values-based-approach-to-open-source-ecosystems/).
 
-# This document is a draft, the final version will be published on Epiverse's blog after it has been reviewed by other Epiverse members and workshop participants
+**This document is a draft, the final version will be published on Epiverse's blog after it has been reviewed by other Epiverse members and workshop participants** 
 
 ## What should the first 100 lines of code written during an epidemic look like?
 
