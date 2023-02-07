@@ -28,7 +28,7 @@ Groups then exchanged epidemic scenarios and analysed the provided data
 to answer the questions indicated the previous group, as if they were a
 response team working to solve an outbreak. Details about each of these
 outbreak scenarios and the analytic pipelines developed by the groups
-are summarised in this vignette
+are summarised in this vignette.
 
 ### Simulating epidemic data
 
@@ -76,10 +76,10 @@ were then assigned a category of *became case*, *under follow up* or
         reporting delays
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
         /
-        [`coarsedatatools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html)
+        [`coarseDataTools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html)
         to estimate incubation period of disease
     -   [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
-    -   [`mixdiff`](https://rdrr.io/cran/RBesT/man/mixdiff.html)
+    -   [`mixdiff`](https://github.com/MJomaba/MixDiff)
 
 -   Population demographics
 
@@ -88,8 +88,10 @@ were then assigned a category of *became case*, *under follow up* or
 
 -   Risk factors of infection
 
-    -   Used [R4epi](https://www.r4epi.com) as a guide on how to create
-        two-way tables and perform Chi-squared tests
+    -   Used
+        [R4epis](https://r4epis.netlify.app/training/walk-through/univariate/)
+        as a guide on how to create two-way tables and perform
+        Chi-squared tests
 
 -   Severity of disease
 
@@ -109,11 +111,11 @@ were then assigned a category of *became case*, *under follow up* or
 -   Epi curve and maps
 
     -   Used
-        [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/overview.html)
+        [`incidence`](https://cran.r-project.org/web/packages/incidence/)
         and
-        [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html)
+        [`incidence2`](https://cran.r-project.org/web/packages/incidence2/)
         for incidence calculation and visualisation
-    -   [`rasterR`](https://cran.r-project.org/web/packages/raster/index.html)
+    -   [`raster`](https://cran.r-project.org/web/packages/raster/index.html)
         to extract spatial information from library of shapefiles
 
 -   Reproduction number
@@ -128,17 +130,18 @@ were then assigned a category of *became case*, *under follow up* or
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
     -   [`R0`](https://cran.r-project.org/web/packages/R0/index.html)
     -   [`outbreaker2`](https://cran.r-project.org/web/packages/outbreaker2/index.html)
+    -   Used [this comparison
+        table](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
+        to choose the most appropriate package.
 
--   Superspreading, by using
-    [this](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
-    resource
+-   Superspreading, by using these resources:
 
     -   [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html)
     -   [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
 
 -   Epidemic projections
 
-    -   [`incidence`](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
+    -   [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/incidence_fit_class.html)
         R estimation using a loglinear model
     -   [`projections`](https://cran.r-project.org/web/packages/projections/index.html)
         using Rt estimates, SI distributions and overdispersion
@@ -188,7 +191,7 @@ reporting frequencies among groups</td>
 <tr class="odd">
 <td>Severity of disease</td>
 <td>Knowing the prevalence of disease (denominator) <br> Right censoring
-<br> Varying severity of diffeent strains</td>
+<br> Varying severity of different strains</td>
 </tr>
 <tr class="even">
 <td>Contact matching</td>
@@ -349,8 +352,7 @@ population data</td>
     -   [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggplot.html)
         to visualise data
 -   Outbreak description
-    -   [`sitrep`](https://rdrr.io/github/R4EPI/r4epi/man/sitrep-package.html)
-        to generate reports
+    -   [`sitrep`](https://github.com/R4EPI/sitrep) to generate reports
 -   Visualisation of geographic data
     -   [`sf`](https://cran.r-project.org/web/packages/sf/index.html)
         for static maps
@@ -366,9 +368,9 @@ population data</td>
         [`survival`](https://cran.r-project.org/web/packages/survival/index.html)
         to calculate CFR
 -   Attack rate
-    -   [`gadm`](https://rdrr.io/github/rspatial/geodata/man/gadm.html)
-        to get population data
-    -   [`epitabulate`](https://rdrr.io/github/R4EPI/epitabulate/) to
+    -   [`gadm`](https://github.com/rspatial/geodata) function to get
+        population data
+    -   [`epitabulate`](https://github.com/R4EPI/epitabulate/) to
         describe data
     -   [`sf`](https://cran.r-project.org/web/packages/sf/index.html)
         and
