@@ -18,7 +18,7 @@ This vignette summarises the findings from the _100 days and 100 lines of code_ 
 
 ## What should the first 100 lines of code written during an epidemic look like?
 
-To answer this question, we invited 40 experts, including academics, field epidemiologists, and software engineers, to take part in a 3-day workshop, where they discussed the current challenges, and potential solutions, in data analytic pipelines used to analyse epidemic data.
+To answer this question, we invited 40 experts, including academics, field epidemiologists, and software engineers, to take part in a 3-day workshop, where they discussed the current challenges, and potential solutions, in data analytic pipelines used to analyse epidemic data. In addition to highlighting existing technical solutions and their use cases, presentations on best practices in fostering collaboration across institutions and disciplines set the scene for the subsequent workshop scenario exercises.
 
 ### What R packages and tools are available to use during an epidemic?  
 To investigate this in a similar setting to what an outbreak response team would experience, workshop participants were divided into groups, and asked to develop a plausible epidemic scenario, that included:
@@ -347,5 +347,5 @@ Severity of disease | Censoring and truncation <br> Underestimation of mild case
 Forecasts | Need option for fitting with range of plausible pathogen serial intervals and comparing results <br> Changing reporting delays over time <br> Matching inputs/outputs between packages
 Zoonotic transmisison | Need for specific packages with clear documentation <br> How to compare simple trend-based forecasts
 
-
-
+## Key takeaways and next steps 
+I somehow feel a few sentences / bullet points could be helpful here to draw common threads across the three scenarios. Also a few words on what active development is ongoing / happenings taking place (i.e. the showcase that you hosted the other week, the work on the packages and what are the links to the repos) could be helpful and stimulate extra awareness on how these workshop findings directed straight into informing some follow-up activities/prioritization. But maybe this will come in the longer perspective piece, so if so, disgregard!
