@@ -122,13 +122,13 @@ knitr::include_graphics('images/Scenario1smq.png')
 Data analysis step  | Challenges 
 ------------- | ---------------------------------------
 Data cleaning | Not knowing what packages are available for this purpose
-Delay distributions | Dealing with right censoring <br> Accounting for multiple infectors
+Delay distributions | Dealing with right truncation <br> Accounting for multiple infectors
 Population demographics | Lacking tools that provide information about population by age, gender, etc.
 Risk factors of infection | Distinguishing between risk factors vs detecting differences in reporting frequencies among groups
 Severity of disease | Knowing the prevalence of disease (denominator) <br> Right truncated data <br> Varying severity of different strains
 Contact matching | Missing data <br> Misspellings
 Epicurve and maps| NA dates entries not included <br> Reporting levels varying over time
-Offspring distribution | Right censoring <br> Time varying reporting efforts <br> Assumption of a single homogeneous epidemic <br> Importation of cases
+Offspring distribution | Right truncation <br> Time varying reporting efforts <br> Assumption of a single homogeneous epidemic <br> Importation of cases
 Forecasting | Underlying assumption of a given R distribution, e.g., single trend, homogeneous mixing, no saturation
 
 <br>
@@ -180,7 +180,7 @@ knitr::include_graphics('images/Scenario2smq.png')
 Data analysis step  | Challenges 
 ------------- | ---------------------------------------
 Data anonymisation | Dealing with typos and missing data when generating random unique identifiers
-Reproduction number | Right censoring <br> Underestimation of cases due to reporting delays
+Reproduction number | Right truncation <br> Underestimation of cases due to reporting delays
 Projection of hospital bed requirements | Incomplete data (missing discharge date) <br> Undocumented functionality in R packages used
 Zoonotic transmission | Poor documentation <br> Unavailability of packages in R <br> Differentiation between zoonotic transmission and risk factors- need for population data
 Attack rate | Not enough information provided
