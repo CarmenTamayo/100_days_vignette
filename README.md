@@ -179,7 +179,7 @@ were then assigned a category of *became case*, *under follow up* or
 </tr>
 <tr class="even">
 <td>Delay distributions</td>
-<td>Dealing with right censoring <br> Accounting for multiple
+<td>Dealing with right truncation <br> Accounting for multiple
 infectors</td>
 </tr>
 <tr class="odd">
@@ -208,7 +208,7 @@ time</td>
 </tr>
 <tr class="even">
 <td>Offspring distribution</td>
-<td>Right censoring <br> Time varying reporting efforts <br> Assumption
+<td>Right truncation <br> Time varying reporting efforts <br> Assumption
 of a single homogeneous epidemic <br> Importation of cases</td>
 </tr>
 <tr class="odd">
@@ -284,7 +284,7 @@ identifiers</td>
 </tr>
 <tr class="even">
 <td>Reproduction number</td>
-<td>Right censoring <br> Underestimation of cases due to reporting
+<td>Right truncation <br> Underestimation of cases due to reporting
 delays</td>
 </tr>
 <tr class="odd">
