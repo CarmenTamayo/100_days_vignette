@@ -55,7 +55,7 @@ were then assigned a category of *became case*, *under follow up* or
     outbreak data in a linelist format, to test analysis methods and
     other packages while having control over the characteristics of the
     test data. For this purpose, an R package is currently in progress,
-    see [simulist](https://github.com/epiverse-trace/pitcher/issues/7).
+    see [simulist](https://github.com/epiverse-trace/pitcher/discussions/9#discussion-4821782).
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
