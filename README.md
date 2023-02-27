@@ -6,14 +6,19 @@ of code* workshop, hosted in December 2022 by
 
 **This document is a draft, the final version will be published on
 Epiverse’s blog after it has been reviewed by other Epiverse members and
-workshop participants**
+workshop participants** \* Participants who have contributed so far:
+Sara Hollis, Anne Cori, Geraldine Gomez
 
 ## What should the first 100 lines of code written during an epidemic look like?
 
 To answer this question, we invited 40 experts, including academics,
 field epidemiologists, and software engineers, to take part in a 3-day
 workshop, where they discussed the current challenges, and potential
-solutions, in data analytic pipelines used to analyse epidemic data.
+solutions, in data analytic pipelines used to analyse epidemic data. In
+addition to highlighting existing technical solutions and their use
+cases, presentations on best practices in fostering collaboration across
+institutions and disciplines set the scene for the subsequent workshop
+scenario exercises.
 
 ### What R packages and tools are available to use during an epidemic?
 
@@ -55,7 +60,7 @@ were then assigned a category of *became case*, *under follow up* or
     outbreak data in a linelist format, to test analysis methods and
     other packages while having control over the characteristics of the
     test data. For this purpose, an R package is currently in progress,
-    see [simulist](https://github.com/epiverse-trace/pitcher/discussions/9#discussion-4821782).
+    see [simulist](https://github.com/epiverse-trace/pitcher/issues/7).
 
 ## Scenario 1: Novel respiratory disease in The Gambia
 
@@ -81,9 +86,11 @@ were then assigned a category of *became case*, *under follow up* or
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
         /
         [`coarseDataTools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html)
-        to estimate incubation period of disease
+        to estimate generation time/serial interval of disease
     -   [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
-    -   [`mixdiff`](https://github.com/MJomaba/MixDiff)
+    -   [`mixdiff`](https://github.com/MJomaba/MixDiff) to estimate
+        delay distributions and correct erroneous dates at the same time
+        (still under development)
 
 -   Population demographics
 
