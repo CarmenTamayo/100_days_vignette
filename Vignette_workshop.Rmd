@@ -346,6 +346,3 @@ Delay distributions | Identifying the best method to calculate, or compare funct
 Severity of disease | Censoring and truncation <br> Underestimation of mild cases <br> Need database of age/gender pyramids for comparisons
 Forecasts | Need option for fitting with range of plausible pathogen serial intervals and comparing results <br> Changing reporting delays over time <br> Matching inputs/outputs between packages
 Zoonotic transmisison | Need for specific packages with clear documentation <br> How to compare simple trend-based forecasts
-
-## Key takeaways and next steps 
-I somehow feel a few sentences / bullet points could be helpful here to draw common threads across the three scenarios. Also a few words on what active development is ongoing / happenings taking place (i.e. the showcase that you hosted the other week, the work on the packages and what are the links to the repos) could be helpful and stimulate extra awareness on how these workshop findings directed straight into informing some follow-up activities/prioritization. But maybe this will come in the longer perspective piece, so if so, disgregard!
