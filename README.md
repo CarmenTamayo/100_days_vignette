@@ -7,7 +7,8 @@ of code* workshop, hosted in December 2022 by
 **This document is a draft, the final version will be published on
 Epiverse’s blog after it has been reviewed by other Epiverse members and
 workshop participants** \* Participants who have contributed so far:
-Sara Hollis, Anne Cori, Geraldine Gomez
+Sara Hollis, Anne Cori, Geraldine Gomez, Juan Daniel Umana, David
+Santiago Quevedo, Chaoran Chen, and John Lees
 
 ## What should the first 100 lines of code written during an epidemic look like?
 
@@ -162,7 +163,7 @@ were then assigned a category of *became case*, *under follow up* or
 
     -   [IQtree](http://www.iqtree.org) and
         [nextclade](https://clades.nextstrain.org) to build a maximum
-        likelihood tree and manually inspect it
+        likelihood tree and mannually inspect it
     -   Advanced modelling through phylodynamic methods, using tools
         like [BEAST](https://beast.community)
 
@@ -182,12 +183,7 @@ were then assigned a category of *became case*, *under follow up* or
 <tbody>
 <tr class="odd">
 <td>Data cleaning</td>
-<td>
-    Not knowing what packages are available for this purpose<br>
-    Reaching data submitters for questions and requests for data corrections<br>
-    Sharing of cleaned data (due to restrictions on sharing of data (which might be sensitive) and missing infrastructure for exchanging
-    cleaned data)
-</td>
+<td>Not knowing what packages are available for this purpose</td>
 </tr>
 <tr class="even">
 <td>Delay distributions</td>
