@@ -162,7 +162,7 @@ were then assigned a category of *became case*, *under follow up* or
 
     -   [IQtree](http://www.iqtree.org) and
         [nextclade](https://clades.nextstrain.org) to build a maximum
-        likelihood tree and mannually inspect it
+        likelihood tree and manually inspect it
     -   Advanced modelling through phylodynamic methods, using tools
         like [BEAST](https://beast.community)
 
@@ -182,7 +182,12 @@ were then assigned a category of *became case*, *under follow up* or
 <tbody>
 <tr class="odd">
 <td>Data cleaning</td>
-<td>Not knowing what packages are available for this purpose</td>
+<td>
+    Not knowing what packages are available for this purpose<br>
+    Reaching data submitters for questions and requests for data corrections<br>
+    Sharing of cleaned data (due to restrictions on sharing of data (which might be sensitive) and missing infrastructure for exchanging
+    cleaned data)
+</td>
 </tr>
 <tr class="even">
 <td>Delay distributions</td>
