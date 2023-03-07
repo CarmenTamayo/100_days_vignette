@@ -272,8 +272,10 @@ knitr::include_graphics('images/Scenario4smq.png')
 ### Analytic pipeline for scenario 4 (analysed by group 5)
 
 * Data cleaning
+  + [tidyverse](https://www.tidyverse.org)
   + [`readxl`](https://readxl.tidyverse.org) to import data
   + [`dplyr`](https://dplyr.tidyverse.org) to remove names
+  + [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html) to standardise date formats
   + Manually scanning through excel to check for errors
 * Reproduction number
   + [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
@@ -287,6 +289,7 @@ Data analysis step  | Challenges
 ------------- | ---------------------------------------
 Data cleaning | No available R packages specific for epidemic data
 Reproduction number | Difficulty finding parameter estimations in the literature
+Serial interval | Lack of a tool to check for parameter estimates 
 Severity | Missing cases <br> Need for an R package for systematic censoring analysis
 
 <br>
