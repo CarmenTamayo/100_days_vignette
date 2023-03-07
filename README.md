@@ -439,8 +439,11 @@ population data</td>
 ### Analytic pipeline for scenario 4 (analysed by group 5)
 
 -   Data cleaning
+    -   [tidyverse](https://www.tidyverse.org)
     -   [`readxl`](https://readxl.tidyverse.org) to import data
     -   [`dplyr`](https://dplyr.tidyverse.org) to remove names
+    -   [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html)
+        to standardise date formats
     -   Manually scanning through excel to check for errors
 -   Reproduction number
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
@@ -472,6 +475,10 @@ population data</td>
 <td>Difficulty finding parameter estimations in the literature</td>
 </tr>
 <tr class="odd">
+<td>Serial interval</td>
+<td>Lack of a tool to check for parameter estimates</td>
+</tr>
+<tr class="even">
 <td>Severity</td>
 <td>Missing cases <br> Need for an R package for systematic censoring
 analysis</td>
