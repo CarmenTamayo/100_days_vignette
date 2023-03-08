@@ -4,12 +4,22 @@ This vignette summarises the findings from the *100 days and 100 lines
 of code* workshop, hosted in December 2022 by
 [Epiverse-TRACE](https://data.org/news/epiverse-trace-a-values-based-approach-to-open-source-ecosystems/).
 
+**This document is a draft, the final version will be published on
+Epiverse’s blog after it has been reviewed by other Epiverse members and
+workshop participants** \* Participants who have contributed so far:
+Sara Hollis, Anne Cori, Geraldine Gomez, Juan Daniel Umana, David
+Santiago Quevedo, Chaoran Chen, and John Lees
+
 ## What should the first 100 lines of code written during an epidemic look like?
 
 To answer this question, we invited 40 experts, including academics,
 field epidemiologists, and software engineers, to take part in a 3-day
 workshop, where they discussed the current challenges, and potential
-solutions, in data analytic pipelines used to analyse epidemic data.
+solutions, in data analytic pipelines used to analyse epidemic data. In
+addition to highlighting existing technical solutions and their use
+cases, presentations on best practices in fostering collaboration across
+institutions and disciplines set the scene for the subsequent workshop
+scenario exercises.
 
 ### What R packages and tools are available to use during an epidemic?
 
@@ -28,7 +38,7 @@ Groups then exchanged epidemic scenarios and analysed the provided data
 to answer the questions indicated the previous group, as if they were a
 response team working to solve an outbreak. Details about each of these
 outbreak scenarios and the analytic pipelines developed by the groups
-are summarised in this vignette
+are summarised in this vignette.
 
 ### Simulating epidemic data
 
@@ -76,10 +86,12 @@ were then assigned a category of *became case*, *under follow up* or
         reporting delays
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
         /
-        [`coarsedatatools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html)
-        to estimate incubation period of disease
+        [`coarseDataTools`](https://cran.r-project.org/web/packages/coarseDataTools/index.html)
+        to estimate generation time/serial interval of disease
     -   [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
-    -   [`mixdiff`](https://rdrr.io/cran/RBesT/man/mixdiff.html)
+    -   [`mixdiff`](https://github.com/MJomaba/MixDiff) to estimate
+        delay distributions and correct erroneous dates at the same time
+        (still under development)
 
 -   Population demographics
 
@@ -88,8 +100,10 @@ were then assigned a category of *became case*, *under follow up* or
 
 -   Risk factors of infection
 
-    -   Used [R4epi](https://www.r4epi.com) as a guide on how to create
-        two-way tables and perform Chi-squared tests
+    -   Used
+        [R4epis](https://r4epis.netlify.app/training/walk-through/univariate/)
+        as a guide on how to create two-way tables and perform
+        Chi-squared tests
 
 -   Severity of disease
 
@@ -109,11 +123,11 @@ were then assigned a category of *became case*, *under follow up* or
 -   Epi curve and maps
 
     -   Used
-        [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/overview.html)
+        [`incidence`](https://cran.r-project.org/web/packages/incidence/)
         and
-        [`incidence2`](https://cran.r-project.org/web/packages/incidence2/vignettes/Introduction.html)
+        [`incidence2`](https://cran.r-project.org/web/packages/incidence2/)
         for incidence calculation and visualisation
-    -   [`rasterR`](https://cran.r-project.org/web/packages/raster/index.html)
+    -   [`raster`](https://cran.r-project.org/web/packages/raster/index.html)
         to extract spatial information from library of shapefiles
 
 -   Reproduction number
@@ -128,17 +142,18 @@ were then assigned a category of *became case*, *under follow up* or
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
     -   [`R0`](https://cran.r-project.org/web/packages/R0/index.html)
     -   [`outbreaker2`](https://cran.r-project.org/web/packages/outbreaker2/index.html)
+    -   Used [this comparison
+        table](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
+        to choose the most appropriate package.
 
--   Superspreading, by using
-    [this](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
-    resource
+-   Superspreading, by using these resources:
 
     -   [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus/index.html)
     -   [`epicontacts`](https://cran.r-project.org/web/packages/epicontacts/index.html)
 
 -   Epidemic projections
 
-    -   [`incidence`](https://github.com/mrc-ide/EpiEstim/blob/master/vignettes/alternative_software.Rmd)
+    -   [`incidence`](https://cran.r-project.org/web/packages/incidence/vignettes/incidence_fit_class.html)
         R estimation using a loglinear model
     -   [`projections`](https://cran.r-project.org/web/packages/projections/index.html)
         using Rt estimates, SI distributions and overdispersion
@@ -172,7 +187,7 @@ were then assigned a category of *became case*, *under follow up* or
 </tr>
 <tr class="even">
 <td>Delay distributions</td>
-<td>Dealing with right censoring <br> Accounting for multiple
+<td>Dealing with right truncation <br> Accounting for multiple
 infectors</td>
 </tr>
 <tr class="odd">
@@ -187,8 +202,8 @@ reporting frequencies among groups</td>
 </tr>
 <tr class="odd">
 <td>Severity of disease</td>
-<td>Knowing the prevalence of disease (denominator) <br> Right censoring
-<br> Varying severity of diffeent strains</td>
+<td>Knowing the prevalence of disease (denominator) <br> Right truncated
+data <br> Varying severity of different strains</td>
 </tr>
 <tr class="even">
 <td>Contact matching</td>
@@ -201,7 +216,7 @@ time</td>
 </tr>
 <tr class="even">
 <td>Offspring distribution</td>
-<td>Right censoring <br> Time varying reporting efforts <br> Assumption
+<td>Right truncation <br> Time varying reporting efforts <br> Assumption
 of a single homogeneous epidemic <br> Importation of cases</td>
 </tr>
 <tr class="odd">
@@ -277,7 +292,7 @@ identifiers</td>
 </tr>
 <tr class="even">
 <td>Reproduction number</td>
-<td>Right censoring <br> Underestimation of cases due to reporting
+<td>Right truncation <br> Underestimation of cases due to reporting
 delays</td>
 </tr>
 <tr class="odd">
@@ -349,8 +364,7 @@ population data</td>
     -   [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggplot.html)
         to visualise data
 -   Outbreak description
-    -   [`sitrep`](https://rdrr.io/github/R4EPI/r4epi/man/sitrep-package.html)
-        to generate reports
+    -   [`sitrep`](https://github.com/R4EPI/sitrep) to generate reports
 -   Visualisation of geographic data
     -   [`sf`](https://cran.r-project.org/web/packages/sf/index.html)
         for static maps
@@ -366,9 +380,9 @@ population data</td>
         [`survival`](https://cran.r-project.org/web/packages/survival/index.html)
         to calculate CFR
 -   Attack rate
-    -   [`gadm`](https://rdrr.io/github/rspatial/geodata/man/gadm.html)
-        to get population data
-    -   [`epitabulate`](https://rdrr.io/github/R4EPI/epitabulate/) to
+    -   [`gadm`](https://github.com/rspatial/geodata) function to get
+        population data
+    -   [`epitabulate`](https://github.com/R4EPI/epitabulate/) to
         describe data
     -   [`sf`](https://cran.r-project.org/web/packages/sf/index.html)
         and
@@ -425,8 +439,11 @@ population data</td>
 ### Analytic pipeline for scenario 4 (analysed by group 5)
 
 -   Data cleaning
+    -   [tidyverse](https://www.tidyverse.org)
     -   [`readxl`](https://readxl.tidyverse.org) to import data
     -   [`dplyr`](https://dplyr.tidyverse.org) to remove names
+    -   [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html)
+        to standardise date formats
     -   Manually scanning through excel to check for errors
 -   Reproduction number
     -   [`EpiEstim`](https://cran.r-project.org/web/packages/EpiEstim/index.html)
@@ -458,6 +475,10 @@ population data</td>
 <td>Difficulty finding parameter estimations in the literature</td>
 </tr>
 <tr class="odd">
+<td>Serial interval</td>
+<td>Lack of a tool to check for parameter estimates</td>
+</tr>
+<tr class="even">
 <td>Severity</td>
 <td>Missing cases <br> Need for an R package for systematic censoring
 analysis</td>
