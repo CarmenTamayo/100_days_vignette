@@ -350,3 +350,9 @@ Delay distributions | Identifying the best method to calculate, or compare funct
 Severity of disease | Censoring and truncation <br> Underestimation of mild cases <br> Need database of age/gender pyramids for comparisons
 Forecasts | Need option for fitting with range of plausible pathogen serial intervals and comparing results <br> Changing reporting delays over time <br> Matching inputs/outputs between packages
 Zoonotic transmisison | Need for specific packages with clear documentation <br> How to compare simple trend-based forecasts
+
+## What next?
+
+Scenarios developed by the _100 days_ workshop participants illustrate that there are many commonalities across proposed analytics pipelines, which could support interoperability across different epidemiological questions. 
+However, there are also several remaining gaps and challenges, which creates an opportunity to build on existing work to tackle common outbreak scenarios, using the issues here as a starting point. This will also require consideration of wider interactions with existing software ecosystems and users of outbreak analytics insights. 
+We are therefore planning to follow up this vignette with a more detailed perspective article discussing potential for broader progress in developing a 'first 100 lines of code'.
