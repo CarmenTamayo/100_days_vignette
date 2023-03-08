@@ -602,3 +602,17 @@ compare simple trend-based forecasts</td>
 </tr>
 </tbody>
 </table>
+
+## What next?
+
+Scenarios developed by the *100 days* workshop participants illustrate
+that there are many commonalities across proposed analytics pipelines,
+which could support interoperability across different epidemiological
+questions. However, there are also several remaining gaps and
+challenges, which creates an opportunity to build on existing work to
+tackle common outbreak scenarios, using the issues here as a starting
+point. This will also require consideration of wider interactions with
+existing software ecosystems and users of outbreak analytics insights.
+We are therefore planning to follow up this vignette with a more
+detailed perspective article discussing potential for broader progress
+in developing a ‘first 100 lines of code’.
